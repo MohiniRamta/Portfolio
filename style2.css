@@ -1,0 +1,560 @@
+@font-face {
+    font-family: Gameplay;
+    src: url(/fonts/Gameplay.woff);
+  }
+
+  @font-face {
+    font-family: Pixy;
+    src: url(/fonts/PIXY.woff);
+  }
+
+  @font-face {
+    font-family: SmallPixel;
+    src: url(/fonts/SmallPixel.woff);
+  }
+
+  
+
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+    
+}
+
+
+  @media (min-width:768px) {
+    
+
+    h2, h3 {
+        font-size: 2.5vw;
+    }
+}
+
+/* code from codepen */
+
+.portfolio-items {
+  max-width: 2000px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: auto;
+}
+
+.portfolio-item {
+  display: block;
+  height: 300px;
+  border: 2px solid #fff;
+  list-style: none;
+  background: #47a3da;
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+  opacity: .7;
+  transition: opacity .3s ease-in-out;
+  transition: scale .3s ease-in-out;
+  align-items: center;
+  scale: 0.95;
+}
+
+
+.portfolio-item p {
+  background-color: #1455D9;
+  padding: 0.4em;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  transform: translateY(-50%);
+  text-align: center; 
+  border-radius: 0px 0.6em 0.6em 0;
+  
+
+  content: attr(class);
+}
+
+.portfolio-item:hover {
+  opacity: 1;
+  scale: 1;
+  
+}
+
+
+/* different sizes */
+.full {
+  width: 100%;
+  background: blue;
+}
+.two-third {
+  width: 66.666%;
+  background: #27ae60;
+}
+.half {
+  width: 50%;
+  background: rgb(2, 2, 126);
+}
+.third {
+  width: 33.333%;
+  background: #16a085;
+}
+.quarter {
+  width: 25%;
+  background: rgb(42, 42, 243);
+}
+
+.portfolio-items li:nth-of-type(1) {
+  background: #0cc8e1;
+  background-image: url("Images/webdesign.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#projectVisual {
+  background: #0cc8e1;
+  background-image: url("Images/projectvisual.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#minorMakerslab {
+  background: rgb(184, 178, 241);
+  background-image: url("Images/blazer3.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#digitalArt {
+  background: #0cc8e1;
+  background-image: url("Images/Robynart.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#logoDesign {
+  background: #0cc8e1;
+  background-image: url("Images/marialogos.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#posters {
+  background: #0cc8e1;
+  background-image: url("Images/poster1.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#io {
+  background: #0cc8e1;
+  background-image: url("Images/io.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#vid {
+  background: #0cc8e1;
+  background-image: url("Images/vid.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#frontend {
+  background: #0cc8e1;
+  background-image: url("Images/mockupinternetstandaarden.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#projects {
+  background:  rgb(2, 2, 126);
+  background-image: url("Images/sacta.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* extra classes */
+.double-height {
+  height: 600px;
+}
+.float-right {
+  float: right;
+}
+
+
+
+@media all and (max-width: 900px) {
+  .half,
+  .responsive-half.responsive-half {
+    /* Override .responsive-half's other classes */
+    width: 66.666%;
+  }
+  .quarter {
+    width: 33.333%;
+  }
+}
+
+@media all and (max-width: 600px) {
+	.portfolio-item.portfolio-item { /* Override all other settings */
+		width: 50%;
+		height: 300px; /* override different height-classes */
+	}
+}
+
+@media all and (max-width: 400px) {
+	.portfolio-item.portfolio-item { /* Override all other settings */
+		width: 100%;
+	}
+}
+
+/* end of code */
+
+    @media (min-width:1024px) {
+       h1 {
+        font-size:4vw;
+    }
+   h2, h3 {
+        font-size: 2vw;
+    }
+}
+
+    @media (min-width:1280px) {
+       h1 {
+        font-size: 3vw;
+    }
+   h2, h3 {
+        font-size: 2.5vw;
+    }
+}
+
+body {
+    align-items: center;
+    background-color: #030017 ;
+    color: white; 
+    height: 100%;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    font-family: Pixy, sans-serif ;
+    font-size: clamp(1em, 4vw, 3em);
+}
+
+a:hover {
+    color:#3DF2F2;
+}
+
+nav a:first-of-type:hover::after {
+    content: "  < ";
+}
+
+nav a:first-of-type:hover::before {
+    content: ">  ";
+}
+
+nav a:focus {
+    color:#3DF2F2;
+    outline: none;
+}
+
+nav a:first-of-type:focus::after {
+    content: "  < ";
+}
+
+nav a:first-of-type:focus::before {
+    content: ">  ";
+}
+
+h1 {
+    position: relative;
+    font-family: Gameplay, sans-serif;
+    color: #3DF2F2;
+    text-shadow: -6px 6px #1455D9 ;
+
+}
+
+h1:nth-of-type(2) {
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 42.5%;
+    color: #3DF2F2;
+
+}
+
+
+h2, h3 {
+    font-family: SmallPixel, sans-serif;
+    margin: 0.5em;
+}
+
+.typewriter h2 {
+    width: 50%;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .3em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em;  */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+  
+  /* img {
+    width: 17vw;
+    float: left;
+    padding-left: 3em;
+  } */
+
+  section {
+    padding-top: 1em;
+  }
+
+  p {
+    font-family: Pixy, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: clamp(1em, 4vw, 3em);
+  }
+
+  #workgrid {
+    display: grid;
+    gap: 1em;
+
+  }
+
+li {
+  color: white; 
+}
+
+main section p:first-of-type {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+
+
+.imagegrids {
+  line-height: 5em;
+   
+  -webkit-column-count: 3;
+  -webkit-column-gap:   1em;
+  -moz-column-count:    3;
+  -moz-column-gap:      1em;
+  -moz-row-gap:      2em;
+
+  column-count:         2;
+  column-gap:           2em; 
+  row-gap: 2em; 
+
+
+}
+
+.imagegrids img {
+  width: 80% !important;
+  height: auto !important;
+}
+
+
+@media (max-width: 1200px) {
+  .imagegrids {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 1000px) {
+  .imagegrids {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 800px) {
+  .imagegrids {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+@media (max-width: 400px) {
+  .imagegrids {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+#nextorback a {
+  color: white;
+}
+
+#nextorback a:hover {
+  color: #3DF2F2;
+}
+
+
+#nextorback {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2em;
+}
+
+#nextorback p:first-of-type {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#nextorback a:nth-of-type(1) {
+  justify-self: start;
+}
+
+#nextorback a:nth-of-type(2) {
+  justify-self: end;
+}
+
+
+  .icon {
+    width: 10vw;
+    position: relative; 
+    justify-self: end;
+    
+  }
+
+  #contactgrid {
+    display: grid;
+    /* grid-template-columns: 50vw 50vw; */
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2em;
+
+  }
+
+  #contactgrid p:first-of-type {
+    grid-column: span 2;
+    justify-self: center;
+    border: 0.2em solid white;
+    padding: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+
+  #contactgrid p {
+    padding: 0;
+    justify-self: start;
+    /* margin-bottom: 0; */
+  }
+  
+  #linkedinlink {
+    color: white;
+    text-decoration: underline;
+  }
+
+  #linkedinlink:hover {
+    color:#3DF2F2;
+  }
+
+#aboutme p {
+  font-size: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+  form {
+    display: grid;
+    gap: 0.5em;
+    padding: 4em; 
+  }
+
+  input,  textarea  {
+    background-color:#030017;
+    color: white;
+    font-family: Pixy, sans-serif;
+    font-size: 2vw;
+    border: 0.2em solid white;
+  }
+
+  button {
+    background-color:#3DF2F2;
+    color: #030017;
+    font-family: Pixy, sans-serif;
+    font-size: 2vw;
+    border: 0.3em solid #3DF2F2;
+    border-radius: 0.3em;
+    
+  }
+
+ button:hover {
+  background-color:#0f9090;
+  border: 0.3em solid #0f9090;
+  border-radius: 0.3em;
+ }
+
+ footer {
+  background-color: #000000;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ footer a {
+  font-family: Pixy, sans-serif;
+  color: white  ;
+  text-decoration: none;
+ }
+
+ footer a:hover::after {
+  content: "  < ";
+}
+
+footer a:hover::before {
+  content: ">  ";
+}
+
+footer a:focus {
+  color:#3DF2F2;
+  outline: none;
+}
+
+footer a:focus::after {
+  content: "  < ";
+}
+
+footer a:focus::before {
+  content: ">  ";
+}
