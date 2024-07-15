@@ -104,7 +104,7 @@
 
 .portfolio-items li:nth-of-type(1) {
   background: #0cc8e1;
-  background-image: url("Images/webdesign.png");
+  background-image: url("./images/webdesign.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,7 +112,7 @@
 
 #projectVisual {
   background: #0cc8e1;
-  background-image: url("Images/projectvisual.jpeg");
+  background-image: url("./images/projectvisual.jpeg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -120,7 +120,7 @@
 
 #minorMakerslab {
   background: rgb(184, 178, 241);
-  background-image: url("Images/blazer3.png");
+  background-image: url("./images/blazer3.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -128,7 +128,7 @@
 
 #digitalArt {
   background: #0cc8e1;
-  background-image: url("Images/Robynart.png");
+  background-image: url("./images/Robynart.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,7 +136,7 @@
 
 #logoDesign {
   background: #0cc8e1;
-  background-image: url("Images/marialogos.png");
+  background-image: url("./images/marialogos.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -144,7 +144,7 @@
 
 #posters {
   background: #0cc8e1;
-  background-image: url("Images/poster1.png");
+  background-image: url("./images/poster1.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -152,7 +152,7 @@
 
 #io {
   background: #0cc8e1;
-  background-image: url("Images/io.png");
+  background-image: url("./images/io.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,7 +160,7 @@
 
 #vid {
   background: #0cc8e1;
-  background-image: url("Images/vid.png");
+  background-image: url("./images/vid.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -168,7 +168,7 @@
 
 #frontend {
   background: #0cc8e1;
-  background-image: url("Images/mockupinternetstandaarden.png");
+  background-image: url("./images/mockupinternetstandaarden.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -176,7 +176,7 @@
 
 #projects {
   background:  rgb(2, 2, 126);
-  background-image: url("Images/sacta.png");
+  background-image: url("./images/sacta.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
