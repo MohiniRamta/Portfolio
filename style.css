@@ -1,16 +1,16 @@
 @font-face {
     font-family: Gameplay;
-    src: url(/fonts/Gameplay.woff);
+    src: url(./fonts/Gameplay.woff);
   }
 
   @font-face {
     font-family: Pixy;
-    src: url(/fonts/PIXY.woff);
+    src: url(./fonts/PIXY.woff);
   }
 
   @font-face {
     font-family: SmallPixel;
-    src: url(/fonts/SmallPixel.woff);
+    src: url(./fonts/SmallPixel.woff);
   }
 
 
