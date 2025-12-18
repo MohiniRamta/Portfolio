@@ -102,6 +102,15 @@
   background: rgb(42, 42, 243);
 }
 
+#nlo {
+  background: #0cc8e1;
+  background-image: url("./images/square.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 .portfolio-items li:nth-of-type(1) {
   background: #0cc8e1;
   background-image: url("./images/webdesign.png");
@@ -120,13 +129,6 @@
   background-position: center;
 }
 
-#nlo {
-  background: #0cc8e1;
-  background-image: url("./images/square.png");
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 #minorMakerslab {
   background: rgb(184, 178, 241);
@@ -571,5 +573,6 @@ footer a:focus::before {
   content: ">  ";
 
 }
+
 
 
