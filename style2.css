@@ -168,7 +168,7 @@
 
 #nlo {
   background: #0cc8e1;
-  background-image: url("./images/nlo/square.png");
+  background-image: url("./images/square.png");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -567,3 +567,4 @@ footer a:focus::before {
   content: ">  ";
 
 }
+
