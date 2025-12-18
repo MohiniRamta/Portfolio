@@ -110,6 +110,13 @@
   background-position: center;
 }
 
+#afstudeer {
+  background: #0cc8e1;
+  background-image: url("./images/home.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .portfolio-items li:nth-of-type(1) {
   background: #0cc8e1;
@@ -573,6 +580,7 @@ footer a:focus::before {
   content: ">  ";
 
 }
+
 
 
 
