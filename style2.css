@@ -166,6 +166,14 @@
   background-position: center;
 }
 
+#nlo {
+  background: #0cc8e1;
+  background-image: url("./images/nlo/square.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #frontend {
   background: #0cc8e1;
   background-image: url("./images/mockupinternetstandaarden.png");
@@ -557,4 +565,5 @@ footer a:focus::after {
 
 footer a:focus::before {
   content: ">  ";
+
 }
