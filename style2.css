@@ -104,7 +104,7 @@
 
 #nlo {
   background: #0cc8e1;
-  background-image: url("./images/square.png");
+  background-image: url("./images/logonlo.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -573,6 +573,7 @@ footer a:focus::before {
   content: ">  ";
 
 }
+
 
 
 
